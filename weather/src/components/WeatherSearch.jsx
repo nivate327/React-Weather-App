@@ -46,14 +46,9 @@ function WeatherSearch() {
   }
   
   useEffect(()=>
-  { if(search=="")
-    {
+  { 
      getWeatherApi();
-    }
-    else
-    {
-      
-    }
+    
   },[]);
   
   return (
