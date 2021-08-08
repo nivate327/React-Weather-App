@@ -1,0 +1,137 @@
+body {
+    font-size: 15pt;
+    background:black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-color:#83CCB6;
+}
+
+.btnColor
+{
+  background: var(--main-color);
+  color: #fff;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-control
+{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.icon
+{
+ margin-left: 40%;
+}
+
+.tempInfo
+{
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 2.5rem;
+  padding-bottom: 1.6rem;
+}
+
+p{
+  margin: 0 !important;
+}
+
+.area
+{
+  margin: 0 !important;
+  font-size: 1rem;
+}
+
+.temp
+{
+  font-size: 2.8rem !important;
+}
+
+.myCard
+{
+  border-radius: 10px;
+  background: white;
+}
+
+.bgColor
+{
+  background: var(--main-color);
+  color:white;
+}
+
+.iconTemp
+{
+  color:var(--main-color);
+}
+
+
+@media(max-width:720px)
+{
+  .tempInfo h1
+  {
+    font-size: 1.8rem !important;
+  }
+  
+  .location h4
+  {
+    font-size: 1rem !important;
+  }
+  
+  .date-time h4
+  {
+    font-size: 1rem !important;
+    
+  }
+  
+  h6, .areas
+  {
+    font-size: .7rem !important;
+  }
+}
+
+
+@media(max-width:360px)
+{
+  .tempInfo h1
+  {
+    font-size: .9rem !important;
+  }
+  
+  .location h4
+  {
+    font-size: .7rem !important;
+  }
+  
+  .date-time h4
+  {
+    font-size: .7rem !important;
+  }
+  
+  h6
+  {
+    font-size: .6rem !important;
+  }
+  
+  .areas
+  {
+    font-size: .6rem !important;
+  }
+  
+  .area
+  {
+    font-size: .7rem !important;
+  }
+  
+  .icon
+{
+ margin-left: 33%;
+}
+}
